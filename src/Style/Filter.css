@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background: red;
+    padding-top:3px ;
+}
+.header-logo{
+    border:1px solid red;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 23px;
+    padding-bottom: 1px;
+    color:red;
+    background:white;
+    margin-left: 2%;
+    float: left;
+}
+.lg a{
+    text-decoration: none;
+    color:white;
+}
+.reg{
+    float:right;
+    border:1px solid wheat;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin-right: 2%;
+    box-shadow: 2px 3px 5px rgb(128, 128, 128);
+
+}
+.login{
+    float:right;
+    width: 80px;
+    height: 20px;
+    font-size: 20px;
+    margin: 4px 0 0 6px;
+}
+.filter-section{
+    width: 85%;
+    box-shadow: 10px 10px 15px 2px red;
+    padding: 10px 0px 10px 12px;
+    margin-bottom: 30px;
+    background: white;
+}
+.item{
+    width: 85%;
+    height: 250px;
+    box-shadow: 10px 10px 15px 2px red;
+    margin-bottom: 30px;
+    background: white;
+}
+.heading{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 2;
+}
+.text-style{
+    font-family: cursive;
+    font-weight: bold;
+    color: blue;
+    line-height: 2;
+}
+.filter{
+    font-size: 20px;
+}
+.sub-heading{
+    font-size: 17px;
+    line-height: 3;
+}
+.select{
+    width: 70%;
+    color: darkgrey;
+}
+.filter-option{
+    color: darkgrey;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.click-box{
+    width: 17px;
+    height: 17px;
+}
+.filter-icon{
+    float: right;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    background: skyblue;
+    margin: 13px;
+    color: red;
+    padding:2px 0 0 3px ;
+    visibility: hidden;
+    
+}
+.box1{
+    display: inline-block;
+    border: 1px solid white;
+    width: 100%;
+    height: 50%;
+}
+.img{
+    
+    width: 20%;
+    height: 90%;
+    margin: 5px;
+    float: left;
+}
+.text{
+
+    
+    width:60%;
+    height: 85%;
+    margin-top: 5px;
+    margin-left: 27%;
+}
+.box2{
+    
+    width: 100%;
+    height: 45%;
+}
+.box2-list{
+    margin: 2%;
+}
+.No-record{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+.pagination{
+    margin-left: 28%;
+}
+.page{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 4px 3px 4px 2px red;
+    border-radius: 6px;
+    color: blue;
+    background: white;
+}
+@media only screen and (max-width:600px){
+    .filter-icon{
+        visibility: visible;
+    }
+    .item{
+        height: 240px;
+    }
+    .img{
+        width: 25%;
+        height:85% ;
+    }
+    .text{
+        margin-left: 34%;
+    }
+    .pagination{
+        margin-left: 18%;
+    }
+}
